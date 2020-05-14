@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/snakeAI/static/css/main.902490b7.chunk.css",
+    "main.js": "/snakeAI/static/js/main.9fd5d964.chunk.js",
+    "main.js.map": "/snakeAI/static/js/main.9fd5d964.chunk.js.map",
+    "runtime-main.js": "/snakeAI/static/js/runtime-main.925a331e.js",
+    "runtime-main.js.map": "/snakeAI/static/js/runtime-main.925a331e.js.map",
+    "static/css/2.4819d237.chunk.css": "/snakeAI/static/css/2.4819d237.chunk.css",
+    "static/js/2.561dfdd5.chunk.js": "/snakeAI/static/js/2.561dfdd5.chunk.js",
+    "static/js/2.561dfdd5.chunk.js.map": "/snakeAI/static/js/2.561dfdd5.chunk.js.map",
+    "index.html": "/snakeAI/index.html",
+    "precache-manifest.68fc7409b62eb4248ebf1c968fd39f11.js": "/snakeAI/precache-manifest.68fc7409b62eb4248ebf1c968fd39f11.js",
+    "service-worker.js": "/snakeAI/service-worker.js",
+    "static/css/2.4819d237.chunk.css.map": "/snakeAI/static/css/2.4819d237.chunk.css.map",
+    "static/css/main.902490b7.chunk.css.map": "/snakeAI/static/css/main.902490b7.chunk.css.map",
+    "static/js/2.561dfdd5.chunk.js.LICENSE.txt": "/snakeAI/static/js/2.561dfdd5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.925a331e.js",
+    "static/css/2.4819d237.chunk.css",
+    "static/js/2.561dfdd5.chunk.js",
+    "static/css/main.902490b7.chunk.css",
+    "static/js/main.9fd5d964.chunk.js"
+  ]
+}
