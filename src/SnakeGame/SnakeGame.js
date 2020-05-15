@@ -253,7 +253,7 @@ class SnakeGame extends Component {
     this.setState({ snake: segments });
   };
 
-  moveSnake = (reversepath) => {
+  algoMoveSnake = (reversepath) => {
     let i = reversepath.length - 1;
     
     const move = () => {
@@ -330,7 +330,7 @@ class SnakeGame extends Component {
         ref="BFS"
         gameState={this.state}
         areaSize={this.props.areaSettings}
-        moveSnake={this.moveSnake}
+        moveSnake={this.algoMoveSnake}
         options={{
           visualize: this.props.visualize,
           snakeSpeed: this.props.gameSettings.snakeSpeed,
@@ -343,7 +343,7 @@ class SnakeGame extends Component {
         ref="DFS"
         gameState={this.state}
         areaSize={this.props.areaSettings}
-        moveSnake={this.moveSnake}
+        moveSnake={this.algoMoveSnake}
         options={{
           visualize: this.props.visualize,
           snakeSpeed: this.props.gameSettings.snakeSpeed,
@@ -356,7 +356,7 @@ class SnakeGame extends Component {
         ref="HAMIL"
         gameState={this.state}
         areaSize={this.props.areaSettings}
-        moveSnake={this.moveSnake}
+        moveSnake={this.algoMoveSnake}
         options={{
           visualize: this.props.visualize,
           snakeSpeed: this.props.gameSettings.snakeSpeed,
@@ -369,7 +369,7 @@ class SnakeGame extends Component {
         ref="BestFirstSearch"
         gameState={this.state}
         areaSize={this.props.areaSettings}
-        moveSnake={this.moveSnake}
+        moveSnake={this.algoMoveSnake}
         options={{
           visualize: this.props.visualize,
           snakeSpeed: this.props.gameSettings.snakeSpeed,
@@ -382,7 +382,7 @@ class SnakeGame extends Component {
         ref="Astar"
         gameState={this.state}
         areaSize={this.props.areaSettings}
-        moveSnake={this.moveSnake}
+        moveSnake={this.algoMoveSnake}
         options={{
           visualize: this.props.visualize,
           snakeSpeed: this.props.gameSettings.snakeSpeed,
