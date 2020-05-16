@@ -8,6 +8,7 @@ import {
 class BFS extends Component {
   constructor(props) {
     super(props);
+    console.log(this.props.areaSize)
     this.adjacencyMatrix = generateAdjacencyMatrix(this.props.areaSize);
     this.state = {
       queue: [],

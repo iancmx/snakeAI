@@ -50,10 +50,6 @@ class SnakeGame extends Component {
     return randcor;
   };
 
-  componentDidMount() {
-    this.refs.BFS.solve();
-  }
-
   componentDidUpdate() {
     this.isOutOfBounds();
     this.isSelfBite();
@@ -413,7 +409,7 @@ class SnakeGame extends Component {
     }
 
     return (
-      <div className="GameArea" style={gameArea}>
+      <div className="GameArea">
         <Snake
           snake={this.state.snake}
           pixelSize={this.props.areaSettings.pixelSize}

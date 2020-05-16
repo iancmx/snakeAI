@@ -8,8 +8,13 @@
   color: #f2fde4;
 }
 
+html {
+  height: 100%;
+}
+
 .App {
   background-color: #defabb;
+  height: 100%;
 }
 
 .form {
@@ -18,6 +23,11 @@
   text-align: right;
 }
 
+.red {
+  background-color: red;
+}
+
+
 #score {
   font-size: xx-large;
   font-weight: 1000;
@@ -25,13 +35,17 @@
   margin: 2em;
 }
 
+.gameload {
+  height: 100%;
+  min-height: 400px;
+}
 
 .GameArea {
   position: relative;
   margin: 20px auto;
-  width: 600px;
-  height: 600px;
   padding: 50px;
+  height: 100%;
+  min-height: 400px;
   background-color: #c6f68d;
   border: 2px solid #008b00;
 }
